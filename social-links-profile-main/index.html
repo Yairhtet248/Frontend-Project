@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Socail link</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter", serif;
+      font-size: 14px;
+      
+    }
+    .container {
+      width: 100%;
+      height: 100vh;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container .card {
+      background-color: hsl(0, 0%, 12%);
+      width: 320px;
+      border-radius: 15px;
+      padding: 24px;
+      text-align: center;
+    }
+    .container .card img {
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    .container .card h1 {
+      font-size: 20px;
+      color: hsl(0, 0%, 100%);
+      margin-top: 15px;
+      margin-bottom: 5px;
+      
+    }
+    .container .card .address{
+      color:hsl(75, 94%, 57%);
+      font-size: 14px;
+    }
+    @font-face {
+      font-family: "Inter", serif;
+      src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format(turetype);
+    }
+    .inter-weight400 {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0;
+    }
+    .inter-weight600 {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0;
+    }
+    .inter-weight700 {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-variation-settings:
+        "slnt" 0;
+    }
+    .container .card .para {
+      margin: 20px 0;
+      color: hsl(0, 0%, 100%);
+     
+    }
+    .options a{
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+      display: block;
+      background-color: hsl(0, 0%, 20%);
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    .options a:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <img src="assets/images/avatar-jessica.jpeg" alt="profile">
+    <h1 class="inter-weight600" >Jessica Randall</h1>
+    <p class="inter-weight600 address">London, United Kingdom</p>
+    <p class="inter-weight400 para">&quot;Front-end developer and avid reader.&quot;</p>
+    <div class="options">
+      <a href="#" class="inter-weight600 " >GitHub</a>
+      <a href="#" class="inter-weight600 " >Frontend Mentor</a>
+      <a href="#" class="inter-weight600 " >LinkedIn</a>
+      <a href="#" class="inter-weight600 " >Twitter</a>
+      <a href="#" class="inter-weight600 " >Instagram</a>
+    </div>
+    </div>
+    
+  </div>
+</body>
+</html>
